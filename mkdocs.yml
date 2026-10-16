@@ -1,0 +1,51 @@
+site_name: TSSR · Mon espace de révision
+site_description: Cours, TP, fiches de révision, commandes et glossaire de la formation TSSR
+site_url: https://TON-PSEUDO.github.io/tssr-cours/
+repo_url: https://github.com/TON-PSEUDO/tssr-cours
+repo_name: tssr-cours
+edit_uri: edit/main/docs/
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: slate
+      primary: green
+      accent: light green
+      toggle: {icon: material/brightness-4, name: Passer en thème clair}
+    - scheme: default
+      primary: green
+      accent: green
+      toggle: {icon: material/brightness-7, name: Passer en thème sombre}
+  features:
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+plugins:
+  - search:
+      lang: fr
+  - awesome-nav
+  - macros
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: {permalink: true}
+  - pymdownx.details
+  - pymdownx.tabbed: {alternate_style: true}
+  - pymdownx.tasklist: {custom_checkbox: true}
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+extra_css: [css/extra.css]
+extra_javascript: [js/filtre.js]
