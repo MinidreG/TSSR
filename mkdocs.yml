@@ -1,7 +1,7 @@
 site_name: TSSR · Mon espace de révision
 site_description: Cours, TP, fiches de révision, commandes et glossaire de la formation TSSR
-site_url: https://TON-PSEUDO.github.io/tssr-cours/
-repo_url: https://github.com/TON-PSEUDO/tssr-cours
+site_url: https://MinidreG.github.io/tssr-cours/
+repo_url: https://github.com/MinidreG/tssr-cours
 repo_name: tssr-cours
 edit_uri: edit/main/docs/
 theme:
